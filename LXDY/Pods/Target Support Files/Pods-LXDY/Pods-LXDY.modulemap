@@ -1,0 +1,6 @@
+framework module Pods_LXDY {
+  umbrella header "Pods-LXDY-umbrella.h"
+
+  export *
+  module * { export * }
+}
