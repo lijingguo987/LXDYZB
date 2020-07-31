@@ -17,7 +17,7 @@ class HomeViewController: UIViewController {
         let titleView = PageTitleView(frame: titleFrame, titles: titles)
         titleView.delegate = self
         return titleView
-    }()
+        }()
     
     fileprivate lazy var pageContentView : PageContentView = {[weak self] in
         
@@ -27,16 +27,15 @@ class HomeViewController: UIViewController {
         
         // 2.确定所有的子控制器
         var childVcs = [UIViewController]()
-        for i in 0..<4 {
-            
-            let vc = UIViewController()
-            vc.view.backgroundColor = UIColor.init().RGB(red: 10.0 * CGFloat(i), green: 20.0 * CGFloat(i), blue: 30.0 * CGFloat(i), alpha: 1.0)
-            childVcs.append(vc)
-        }
+        // 2.确定所有的子控制器
+        childVcs.append(RecommendViewController())
+        childVcs.append(GameViewController())
+        childVcs.append(AmuseViewController())
+        childVcs.append(FunnyViewController())
         let contentView = PageContentView(frame: contentFrame, childVcs: childVcs, parentViewController: self)
         contentView.delegate = self
         return contentView
-    }()
+        }()
     
     // MARK:- 系统回调函数
     override func viewDidLoad() {
@@ -45,9 +44,9 @@ class HomeViewController: UIViewController {
         // 设置UI界面
         setupUI()
     }
-
     
-
+    
+    
 }
 
 extension HomeViewController{
@@ -60,27 +59,27 @@ extension HomeViewController{
         setNavigationBar()
     }
     
-   private func setNavigationBar()  {
+    private func setNavigationBar()  {
         
-    let btn = UIButton.init()
-    btn.sizeToFit()
-    btn.setImage(UIImage(named: "logo"), for: .normal)
-    navigationItem.leftBarButtonItem = UIBarButtonItem(customView: btn)
-    let size = CGSize(width: 35.0, height: 35.0)
-//    let historyItem = UIBarButtonItem.createItem(normalIcon: "image_my_history", heightIcon: "Image_scan_click", size: size)
-//    let searchItem = UIBarButtonItem.createItem(normalIcon: "btn_search", heightIcon: "btn_search_clicked", size: size)
-//    let qcodeItem = UIBarButtonItem.createItem(normalIcon: "Image_scan", heightIcon: "Image_scan_click", size: size)
-    let historyItem = UIBarButtonItem(normalIcon: "image_my_history", heightIcon: "Image_scan_click", size: size)
-    let searchItem = UIBarButtonItem(normalIcon: "btn_search", heightIcon: "btn_search_clicked", size: size)
-    let qcodeItem = UIBarButtonItem(normalIcon: "Image_scan", heightIcon: "Image_scan_click", size: size)
-    navigationItem.rightBarButtonItems = [historyItem,searchItem,qcodeItem]
-    
-    view.addSubview(pageTitleView)
-    
-    // 3.添加ContentView
-    view.addSubview(pageContentView)
-    
-}
+        let btn = UIButton.init()
+        btn.sizeToFit()
+        btn.setImage(UIImage(named: "logo"), for: .normal)
+        navigationItem.leftBarButtonItem = UIBarButtonItem(customView: btn)
+        let size = CGSize(width: 35.0, height: 35.0)
+        //    let historyItem = UIBarButtonItem.createItem(normalIcon: "image_my_history", heightIcon: "Image_scan_click", size: size)
+        //    let searchItem = UIBarButtonItem.createItem(normalIcon: "btn_search", heightIcon: "btn_search_clicked", size: size)
+        //    let qcodeItem = UIBarButtonItem.createItem(normalIcon: "Image_scan", heightIcon: "Image_scan_click", size: size)
+        let historyItem = UIBarButtonItem(normalIcon: "image_my_history", heightIcon: "Image_scan_click", size: size)
+        let searchItem = UIBarButtonItem(normalIcon: "btn_search", heightIcon: "btn_search_clicked", size: size)
+        let qcodeItem = UIBarButtonItem(normalIcon: "Image_scan", heightIcon: "Image_scan_click", size: size)
+        navigationItem.rightBarButtonItems = [historyItem,searchItem,qcodeItem]
+        
+        view.addSubview(pageTitleView)
+        
+        // 3.添加ContentView
+        view.addSubview(pageContentView)
+        
+    }
 }
 
 

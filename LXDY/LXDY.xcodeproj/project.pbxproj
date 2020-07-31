@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52B0799EFBC96A5EF03DA1A3 /* Pods_LXDY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 652716D438E069E136DC2E89 /* Pods_LXDY.framework */; };
 		7F8B279224D2B9D400BBDEE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B279124D2B9D400BBDEE0 /* AppDelegate.swift */; };
 		7F8B279924D2B9D400BBDEE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8B279724D2B9D400BBDEE0 /* Main.storyboard */; };
 		7F8B279B24D2B9D700BBDEE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8B279A24D2B9D700BBDEE0 /* Assets.xcassets */; };
@@ -32,6 +33,20 @@
 		7F8B280224D3B43500BBDEE0 /* UITabBarItem_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B280124D3B43500BBDEE0 /* UITabBarItem_extension.swift */; };
 		7F8B280624D3EE2400BBDEE0 /* PageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B280424D3EE2400BBDEE0 /* PageContentView.swift */; };
 		7F8B280724D3EE2400BBDEE0 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B280524D3EE2400BBDEE0 /* PageTitleView.swift */; };
+		7F8B280D24D40D0900BBDEE0 /* CollectionPrettyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F8B280824D40D0800BBDEE0 /* CollectionPrettyCell.xib */; };
+		7F8B280E24D40D0900BBDEE0 /* CollectionPrettyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B280924D40D0900BBDEE0 /* CollectionPrettyCell.swift */; };
+		7F8B280F24D40D0900BBDEE0 /* CollectionNormalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B280A24D40D0900BBDEE0 /* CollectionNormalCell.swift */; };
+		7F8B281024D40D0900BBDEE0 /* CollectionBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B280B24D40D0900BBDEE0 /* CollectionBaseCell.swift */; };
+		7F8B281124D40D0900BBDEE0 /* CollectionNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F8B280C24D40D0900BBDEE0 /* CollectionNormalCell.xib */; };
+		7F8B281324D40D4100BBDEE0 /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B281224D40D4100BBDEE0 /* RecommendViewController.swift */; };
+		7F8B281524D40D4F00BBDEE0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B281424D40D4F00BBDEE0 /* GameViewController.swift */; };
+		7F8B281724D40D5C00BBDEE0 /* AmuseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B281624D40D5C00BBDEE0 /* AmuseViewController.swift */; };
+		7F8B281924D40D6D00BBDEE0 /* FunnyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B281824D40D6D00BBDEE0 /* FunnyViewController.swift */; };
+		7F8B281E24D40E8800BBDEE0 /* AnchorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B281B24D40E8800BBDEE0 /* AnchorGroup.swift */; };
+		7F8B281F24D40E8800BBDEE0 /* AnchorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B281C24D40E8800BBDEE0 /* AnchorModel.swift */; };
+		7F8B282024D40E8800BBDEE0 /* BaseGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B281D24D40E8800BBDEE0 /* BaseGameModel.swift */; };
+		83A9B7CB7F63E4CF94327326 /* Pods_LXDYUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDCB27F0D4DA29EC8F537380 /* Pods_LXDYUITests.framework */; };
+		E010E8797F2E5C47A24E179D /* Pods_LXDYTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70DDB1754477BBCA0B9ACC9 /* Pods_LXDYTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +67,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		197ED7CD3E404605DE757833 /* Pods-LXDY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXDY.debug.xcconfig"; path = "Target Support Files/Pods-LXDY/Pods-LXDY.debug.xcconfig"; sourceTree = "<group>"; };
+		5CA4345E05A77FEF37767F74 /* Pods-LXDYUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXDYUITests.debug.xcconfig"; path = "Target Support Files/Pods-LXDYUITests/Pods-LXDYUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		652716D438E069E136DC2E89 /* Pods_LXDY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXDY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68639F7AB57E2E73C23CFAA4 /* Pods-LXDY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXDY.release.xcconfig"; path = "Target Support Files/Pods-LXDY/Pods-LXDY.release.xcconfig"; sourceTree = "<group>"; };
 		7F8B278E24D2B9D400BBDEE0 /* LXDY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXDY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8B279124D2B9D400BBDEE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F8B279824D2B9D400BBDEE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -83,6 +102,23 @@
 		7F8B280124D3B43500BBDEE0 /* UITabBarItem_extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarItem_extension.swift; sourceTree = "<group>"; };
 		7F8B280424D3EE2400BBDEE0 /* PageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentView.swift; sourceTree = "<group>"; };
 		7F8B280524D3EE2400BBDEE0 /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		7F8B280824D40D0800BBDEE0 /* CollectionPrettyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionPrettyCell.xib; sourceTree = "<group>"; };
+		7F8B280924D40D0900BBDEE0 /* CollectionPrettyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionPrettyCell.swift; sourceTree = "<group>"; };
+		7F8B280A24D40D0900BBDEE0 /* CollectionNormalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionNormalCell.swift; sourceTree = "<group>"; };
+		7F8B280B24D40D0900BBDEE0 /* CollectionBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionBaseCell.swift; sourceTree = "<group>"; };
+		7F8B280C24D40D0900BBDEE0 /* CollectionNormalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionNormalCell.xib; sourceTree = "<group>"; };
+		7F8B281224D40D4100BBDEE0 /* RecommendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
+		7F8B281424D40D4F00BBDEE0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		7F8B281624D40D5C00BBDEE0 /* AmuseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmuseViewController.swift; sourceTree = "<group>"; };
+		7F8B281824D40D6D00BBDEE0 /* FunnyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnyViewController.swift; sourceTree = "<group>"; };
+		7F8B281B24D40E8800BBDEE0 /* AnchorGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorGroup.swift; sourceTree = "<group>"; };
+		7F8B281C24D40E8800BBDEE0 /* AnchorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnchorModel.swift; sourceTree = "<group>"; };
+		7F8B281D24D40E8800BBDEE0 /* BaseGameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseGameModel.swift; sourceTree = "<group>"; };
+		95BC19EF505E4476728F37EC /* Pods-LXDYTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXDYTests.release.xcconfig"; path = "Target Support Files/Pods-LXDYTests/Pods-LXDYTests.release.xcconfig"; sourceTree = "<group>"; };
+		98BAE7290F806C748733B9C6 /* Pods-LXDYTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXDYTests.debug.xcconfig"; path = "Target Support Files/Pods-LXDYTests/Pods-LXDYTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C84EE6DDD77452C69A1594AD /* Pods-LXDYUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXDYUITests.release.xcconfig"; path = "Target Support Files/Pods-LXDYUITests/Pods-LXDYUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CDCB27F0D4DA29EC8F537380 /* Pods_LXDYUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXDYUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70DDB1754477BBCA0B9ACC9 /* Pods_LXDYTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXDYTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B0799EFBC96A5EF03DA1A3 /* Pods_LXDY.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E010E8797F2E5C47A24E179D /* Pods_LXDYTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,12 +142,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83A9B7CB7F63E4CF94327326 /* Pods_LXDYUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		001D9CCF85E977DFC8F1FD76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				652716D438E069E136DC2E89 /* Pods_LXDY.framework */,
+				F70DDB1754477BBCA0B9ACC9 /* Pods_LXDYTests.framework */,
+				CDCB27F0D4DA29EC8F537380 /* Pods_LXDYUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B2D13D572193CD83392B17D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				197ED7CD3E404605DE757833 /* Pods-LXDY.debug.xcconfig */,
+				68639F7AB57E2E73C23CFAA4 /* Pods-LXDY.release.xcconfig */,
+				98BAE7290F806C748733B9C6 /* Pods-LXDYTests.debug.xcconfig */,
+				95BC19EF505E4476728F37EC /* Pods-LXDYTests.release.xcconfig */,
+				5CA4345E05A77FEF37767F74 /* Pods-LXDYUITests.debug.xcconfig */,
+				C84EE6DDD77452C69A1594AD /* Pods-LXDYUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7F8B278524D2B9D400BBDEE0 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +179,8 @@
 				7F8B27A724D2B9D700BBDEE0 /* LXDYTests */,
 				7F8B27B224D2B9D700BBDEE0 /* LXDYUITests */,
 				7F8B278F24D2B9D400BBDEE0 /* Products */,
+				0B2D13D572193CD83392B17D /* Pods */,
+				001D9CCF85E977DFC8F1FD76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -179,6 +243,10 @@
 			isa = PBXGroup;
 			children = (
 				7F8B27CF24D39D7200BBDEE0 /* HomeViewController.swift */,
+				7F8B281224D40D4100BBDEE0 /* RecommendViewController.swift */,
+				7F8B281424D40D4F00BBDEE0 /* GameViewController.swift */,
+				7F8B281624D40D5C00BBDEE0 /* AmuseViewController.swift */,
+				7F8B281824D40D6D00BBDEE0 /* FunnyViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -266,6 +334,7 @@
 		7F8B27D524D39E2C00BBDEE0 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				7F8B281A24D40E7200BBDEE0 /* Model */,
 				7F8B280324D3EE1100BBDEE0 /* View */,
 				7F8B27E124D3A32800BBDEE0 /* Common */,
 				7F8B27E724D3A32800BBDEE0 /* Extensions */,
@@ -317,10 +386,25 @@
 		7F8B280324D3EE1100BBDEE0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7F8B280B24D40D0900BBDEE0 /* CollectionBaseCell.swift */,
+				7F8B280A24D40D0900BBDEE0 /* CollectionNormalCell.swift */,
+				7F8B280C24D40D0900BBDEE0 /* CollectionNormalCell.xib */,
+				7F8B280924D40D0900BBDEE0 /* CollectionPrettyCell.swift */,
+				7F8B280824D40D0800BBDEE0 /* CollectionPrettyCell.xib */,
 				7F8B280424D3EE2400BBDEE0 /* PageContentView.swift */,
 				7F8B280524D3EE2400BBDEE0 /* PageTitleView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		7F8B281A24D40E7200BBDEE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7F8B281B24D40E8800BBDEE0 /* AnchorGroup.swift */,
+				7F8B281C24D40E8800BBDEE0 /* AnchorModel.swift */,
+				7F8B281D24D40E8800BBDEE0 /* BaseGameModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,9 +414,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F8B27B824D2B9D700BBDEE0 /* Build configuration list for PBXNativeTarget "LXDY" */;
 			buildPhases = (
+				AC9D37954DFAF1DA7C3840BE /* [CP] Check Pods Manifest.lock */,
 				7F8B278A24D2B9D400BBDEE0 /* Sources */,
 				7F8B278B24D2B9D400BBDEE0 /* Frameworks */,
 				7F8B278C24D2B9D400BBDEE0 /* Resources */,
+				DCCB8CE37AB1839F1B3EF7CC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -347,6 +433,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F8B27BB24D2B9D700BBDEE0 /* Build configuration list for PBXNativeTarget "LXDYTests" */;
 			buildPhases = (
+				9FEE7C69845C97448E2046C9 /* [CP] Check Pods Manifest.lock */,
 				7F8B27A024D2B9D700BBDEE0 /* Sources */,
 				7F8B27A124D2B9D700BBDEE0 /* Frameworks */,
 				7F8B27A224D2B9D700BBDEE0 /* Resources */,
@@ -365,6 +452,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F8B27BE24D2B9D700BBDEE0 /* Build configuration list for PBXNativeTarget "LXDYUITests" */;
 			buildPhases = (
+				08D1DEE8E33C7EDE12155BD7 /* [CP] Check Pods Manifest.lock */,
 				7F8B27AB24D2B9D700BBDEE0 /* Sources */,
 				7F8B27AC24D2B9D700BBDEE0 /* Frameworks */,
 				7F8B27AD24D2B9D700BBDEE0 /* Resources */,
@@ -429,6 +517,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F8B279E24D2B9D700BBDEE0 /* LaunchScreen.storyboard in Resources */,
+				7F8B280D24D40D0900BBDEE0 /* CollectionPrettyCell.xib in Resources */,
+				7F8B281124D40D0900BBDEE0 /* CollectionNormalCell.xib in Resources */,
 				7F8B279B24D2B9D700BBDEE0 /* Assets.xcassets in Resources */,
 				7F8B279924D2B9D400BBDEE0 /* Main.storyboard in Resources */,
 			);
@@ -450,6 +540,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08D1DEE8E33C7EDE12155BD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LXDYUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FEE7C69845C97448E2046C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LXDYTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC9D37954DFAF1DA7C3840BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LXDY-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCCB8CE37AB1839F1B3EF7CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LXDY/Pods-LXDY-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LXDY/Pods-LXDY-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LXDY/Pods-LXDY-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7F8B278A24D2B9D400BBDEE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -460,20 +636,30 @@
 				7F8B27F224D3A32800BBDEE0 /* LXNotifion.swift in Sources */,
 				7F8B27F424D3A32800BBDEE0 /* NormalColor.swift in Sources */,
 				7F8B27F324D3A32800BBDEE0 /* NetworkTool.swift in Sources */,
+				7F8B281524D40D4F00BBDEE0 /* GameViewController.swift in Sources */,
 				7F8B27D424D39D9600BBDEE0 /* RoomViewController.swift in Sources */,
+				7F8B280E24D40D0900BBDEE0 /* CollectionPrettyCell.swift in Sources */,
+				7F8B281724D40D5C00BBDEE0 /* AmuseViewController.swift in Sources */,
 				7F8B27F824D3A32800BBDEE0 /* LXBtnNormalSet.swift in Sources */,
 				7F8B280624D3EE2400BBDEE0 /* PageContentView.swift in Sources */,
 				7F8B27FE24D3ACDA00BBDEE0 /* ProfileViewController.swift in Sources */,
 				7F8B27D824D39EA400BBDEE0 /* LXBaseTabBarController.swift in Sources */,
 				7F8B279224D2B9D400BBDEE0 /* AppDelegate.swift in Sources */,
+				7F8B281924D40D6D00BBDEE0 /* FunnyViewController.swift in Sources */,
 				7F8B27F724D3A32800BBDEE0 /* LXString.swift in Sources */,
+				7F8B281F24D40E8800BBDEE0 /* AnchorModel.swift in Sources */,
 				7F8B280724D3EE2400BBDEE0 /* PageTitleView.swift in Sources */,
 				7F8B27FA24D3A32800BBDEE0 /* LXBaseLabel.swift in Sources */,
 				7F8B27D224D39D8100BBDEE0 /* LiveViewController.swift in Sources */,
 				7F8B27CE24D39D5D00BBDEE0 /* MainViewController.swift in Sources */,
+				7F8B281324D40D4100BBDEE0 /* RecommendViewController.swift in Sources */,
+				7F8B281024D40D0900BBDEE0 /* CollectionBaseCell.swift in Sources */,
 				7F8B27FC24D3ACC600BBDEE0 /* FollowViewController.swift in Sources */,
+				7F8B282024D40E8800BBDEE0 /* BaseGameModel.swift in Sources */,
 				7F8B280224D3B43500BBDEE0 /* UITabBarItem_extension.swift in Sources */,
+				7F8B281E24D40E8800BBDEE0 /* AnchorGroup.swift in Sources */,
 				7F8B27F924D3A32800BBDEE0 /* LXFrame.swift in Sources */,
+				7F8B280F24D40D0900BBDEE0 /* CollectionNormalCell.swift in Sources */,
 				7F8B27F624D3A32800BBDEE0 /* LXViewNormalSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -645,6 +831,7 @@
 		};
 		7F8B27B924D2B9D700BBDEE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 197ED7CD3E404605DE757833 /* Pods-LXDY.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -663,6 +850,7 @@
 		};
 		7F8B27BA24D2B9D700BBDEE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68639F7AB57E2E73C23CFAA4 /* Pods-LXDY.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -681,6 +869,7 @@
 		};
 		7F8B27BC24D2B9D700BBDEE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98BAE7290F806C748733B9C6 /* Pods-LXDYTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -702,6 +891,7 @@
 		};
 		7F8B27BD24D2B9D700BBDEE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95BC19EF505E4476728F37EC /* Pods-LXDYTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -723,6 +913,7 @@
 		};
 		7F8B27BF24D2B9D700BBDEE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CA4345E05A77FEF37767F74 /* Pods-LXDYUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -742,6 +933,7 @@
 		};
 		7F8B27C024D2B9D700BBDEE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C84EE6DDD77452C69A1594AD /* Pods-LXDYUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
